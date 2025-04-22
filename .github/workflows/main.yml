@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repo
+      - name: Checkout repository
         uses: actions/checkout@v3
 
       - name: Set up Python
@@ -26,4 +26,4 @@ jobs:
 
       - name: Lint and check syntax
         run: |
-          python -m py_compile "Loan approval Prediction.py"
+          python -m py_compile Loan_Approval_Prediction.py
